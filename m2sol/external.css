@@ -1,0 +1,128 @@
+/********** Base styles **********/
+  /*font-family: Arial, Helvetica, sans-serif;*/
+font-family: Helvetica;
+/*  text-align: center;
+*/
+* {all: revert}
+
+* {
+  box-sizing: border-box;
+}
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Small box text */
+p {	
+  border: 1px solid black;
+  margin: 0px;
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+  position: relative;
+  float: right;
+  text-align: center;
+  font-size: 22px;
+}
+#p1 {
+  background-color: #FF7F50;
+}
+#p2 {
+  background-color: #DEB887;
+}
+#p3 {
+  background-color: #5F9EA0;
+}
+
+/* Large window border */
+section {
+  width: 95%;
+  background-color: #DCDCDC;
+  height: 130px;
+  padding: 1px solid black;
+  border: 1px solid black;
+  clear: both;
+}
+/*  #section1 {
+  width: 95%;
+}
+  #section2 {
+  width: 95%;
+}
+  #section3 {
+  width: 95%;
+}*/
+
+/* Large window text */
+q {
+  background-color: #DCDCDC;
+  height: 75px;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow: auto;
+}
+ 
+.row {
+  margin-left: 10px;
+  border: 0px white;
+  height: auto;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media screen and (min-width: 992px) {
+  .col-lg-4
+  {
+    margin: 0px;
+    padding: 0px solid white;
+    border: 0px; 
+    background-color: white;
+    float: left;
+    height: 150px;
+  }
+.col-lg-4 {
+    width: 33.33%;
+  } 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12
+  {
+    margin: 0px;
+    padding: 0px solid white;
+    border: 0px; 
+    background-color: white;
+    float: left;
+    height: 150px;
+  }
+  .col-md-6 {
+    width: 48.7%;
+  }  
+  .col-md-12 {
+    width: 100%;
+  }  
+}
+/********** Small devices only **********/ 
+@media screen and (max-width: 767px) {
+  .col-sm-12 
+  {
+    margin: 0px;
+    padding: 0px solid white;
+    border: 0px; 
+    background-color: white;
+    float: left;
+    height: 150px;
+  }
+    .col-sm-12 {
+    width: 90%;
+  } 
+}
+
+
+
