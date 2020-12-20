@@ -12,12 +12,6 @@ body {
   position: relative;
 }
 
-.navbar-brand {
-  padding-top: 15px;
-  position: relative;
-  pull: margin-right;
-}
-
 .navbar-brand h1 { /* Restaurant name */
   font-family: serif;
   color: #424242;
@@ -25,32 +19,19 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 2px 2px 2px #222;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   line-height: .75;
 }
 
-.ourButton {
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 5px;
-  border-width:3px !important;
+.ourNavbar {
+  position: absolute;
+}
+
+  .ourButton .btn .btn-primary {
+  border-radius: 8px;
   position: relative;
-}
-
-.ourButton :hover {
-  background-color: blue;
-}
-
-.button.navbar-toggle {
-  border: 3px solid black;
-}
-
-
-.btn-primary:hover {
-    color: #212529;
-    background-color: #52bebe;
-    border-color: #8ad3d3
+  float: right;
+  height: 47px;
 }
 
 #ourMenu {
